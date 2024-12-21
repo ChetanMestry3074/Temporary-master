@@ -100,7 +100,7 @@ const MarketPage = () => {
             <div id="chartContainer" className="chart-container">
                 <canvas id="stockChart"></canvas>
             </div>
-        </div>
+        </div>abhgjlbjsfgpj ab gp
     );
 };
 
