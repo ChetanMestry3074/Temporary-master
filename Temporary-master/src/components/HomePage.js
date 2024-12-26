@@ -5,6 +5,8 @@ const HomePage = () => {
     const navigateToRisk = (riskType) => {
         if (riskType === 'market') {
             window.location.href = '/market';
+        } else if (riskType === 'credit') {
+            window.location.href = '/credit';
         } else {
             alert(`${riskType.charAt(0).toUpperCase() + riskType.slice(1)} risk analysis coming soon!`);
         }
