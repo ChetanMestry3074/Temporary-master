@@ -1,11 +1,15 @@
 .container {
     padding: 20px;
     text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
     margin-bottom: 20px;
     color: #333;
+    font-family: 'Arial', sans-serif;
 }
 
 .search-container {
@@ -48,9 +52,31 @@ button:hover {
 .loading {
     text-align: center;
     color: #2196F3;
+    font-weight: bold;
 }
 
 .error {
     color: red;
     text-align: center;
+    font-weight: bold;
+}
+
+.header {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+.chart-container {
+    margin-top: 20px;
 } 
