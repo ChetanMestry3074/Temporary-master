@@ -175,4 +175,4 @@ Fetches stock data, news articles, and provides an investment suggestion for a g
 
 ---
 
-This README provides a comprehensive guide to understanding, setting up, and using the Stock Dashboard API. Let me know if you'd like further customization!
+This README provides a comprehensive guide to understanding and setting up.
